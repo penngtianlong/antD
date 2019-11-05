@@ -1,7 +1,18 @@
 import React ,{Component} from 'react'
-import {Button,Input} from 'antd'
+import {Button,Input,Radio} from 'antd'
 import Style from './brandAdd.module.less'
 class brandAdd extends Component{
+    constructor(){
+        super();
+        this.state={
+            value: 1,
+        }
+    }
+    onChange  =(e) => {
+        this.setState({
+            value: e.target.value,
+        });
+    };
     render(){
         return(
             <div className={Style.box}>
@@ -30,9 +41,14 @@ class brandAdd extends Component{
                         <span >排序:</span>
                         <Input type="text" />
                     </div>
-                    <div className={Style.sort}>
-                        <span >启用:</span>
-                        <Input type="text" />
+                    <div className={Style.fouce}>
+                        <div >启用:</div>
+                        <div className={Style.checkbox}>
+                            <Radio.Group onChange={this.onChange} value={this.state.value}>
+                                <Radio value={1}>开</Radio>
+                                <Radio value={2}>关</Radio>
+                            </Radio.Group>
+                        </div>
                     </div>
                     <div className={Style.button}>
                        <Button>保存</Button>

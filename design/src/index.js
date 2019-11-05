@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import axios from './utils/axios'
 import store from './store/store'
 // import App from './App';
-// import App from './pages/brand/brand'
-import App from './pages/brand/brandAdd'
+import App from './pages/brand/brand'
+// import App from './pages/brand/brandAdd'
 import {Provider} from  'react-redux'
 import * as serviceWorker from './serviceWorker';
 

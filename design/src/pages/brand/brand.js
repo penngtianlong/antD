@@ -1,6 +1,17 @@
 import React ,{Component} from 'react'
-import {Button,Input} from 'antd'
+import {Button,Input,Cascader } from 'antd'
 import Style from './brand.module.less'
+const options = [
+    {
+        value: '开',
+        label: '开',
+
+    },
+    {
+        value: '关',
+        label: '关',
+    },
+];
 class Brand extends Component{
     render(){
         return(
@@ -14,7 +25,8 @@ class Brand extends Component{
                       </div>
                       <div className={Style.navIcon}>
                           <span>品牌状态:</span>
-                          <Input type="text"/>
+                          <span className={Style.Cascader}><Cascader options={options}  placeholder="不限" /></span>
+
                       </div>
                       <Button>查询</Button>
                   </div>
@@ -30,7 +42,9 @@ class Brand extends Component{
                         <li>状态</li>
                         <li>操作</li>
                     </ul></div>
-                    <div ><Button>新增品牌</Button></div>
+                    <div ><Button onClick={(e)=>{
+                        console.log(e)
+                    }}>新增品牌</Button></div>
                 </div>
               <div className={Style.footer}>
                   <ul>
