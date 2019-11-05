@@ -383,7 +383,10 @@ module.exports = function(webpackEnv) {
                                 ),
 
                                 plugins: [
+<<<<<<< HEAD
                                     // ['import',{ "libraryName": "antd", style: true }],//按需引入antd的样式文件
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
                                     ['import',{ "libraryName": "antd", style: true }], //按需引入antd的样式文件
                                     [
                                         require.resolve('babel-plugin-named-asset-import'),

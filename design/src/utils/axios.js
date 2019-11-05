@@ -7,7 +7,6 @@ axios.interceptors.request.use(function (config) {
     return Promise.reject(error);
 });
 
-
 axios.interceptors.response.use(function (response) {
 
     return response.data;
