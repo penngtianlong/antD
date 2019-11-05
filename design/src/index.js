@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from './utils/axios'
 import {Provider} from 'react-redux'
-import App from './App';
+import store from './store/store'
+// import App from './App';
+import App from './pages/feature/feature';
+// import App from './pages/addfeature/addfeature';
 import * as serviceWorker from './serviceWorker';
-
+//挂载axios
+React.Component.prototype.$axios=axios;
 ReactDOM.render(
-    <Provider>
+    <Provider store={store}>
     <App />
     </Provider>
     , document.getElementById('root'));
