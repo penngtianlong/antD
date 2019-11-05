@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './router'
 import axios from './utils/axios'
+
 import {Provider} from 'react-redux'
 import store from './store/store'
 // import App from  './demo/less'
@@ -14,6 +15,7 @@ React.Component.prototype.$axios=axios
 // prototype
 // __proto__
 ReactDOM.render(
+
     <Provider store={store}>
         <App />
     </Provider>
