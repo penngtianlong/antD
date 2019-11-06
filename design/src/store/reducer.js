@@ -1,9 +1,11 @@
+
 const State={
 
 }
 
-export  default (prevState,action)=>{
-    // let newData=JSON.parse(JSON.stringify(prevState))
-    // let {type,params}=action
-    // return newData
+export  default (prevState=State,action)=>{
+    let newDate=JSON.parse(JSON.stringify(prevState))
+    let {type,params}=action
+    return newDate
+
 }

@@ -1,8 +1,9 @@
+
 import React ,{Component} from 'react'
-import {Button,Input,Radio,message} from 'antd'
+import {Button,Input,Radio} from 'antd'
 import Style from './brandAdd.module.less'
 import {withRouter} from 'react-router-dom'
-class brandAdd extends Component{
+class brandUpdate extends Component{
     constructor(){
         super();
         this.state={
@@ -10,36 +11,55 @@ class brandAdd extends Component{
             brandName:'', //品类名称
             img:"", //图片
             sort:'',//排序
-            status:1
+            status:1,
+            _id:''
         }
     }
     onChange  =(e) => {
-        // console.log(e.target.value)
+        console.log(e.target.value)
         this.setState({
             status: e.target.value,
 
         });
     };
-    //添加
-    addClass=(state)=>{
-        let {brandName,sort,status,img}=this.state
 
-        this.$axios.post('http://10.60.12.88:8888/addBrandData',{brandName:brandName,sort:sort,status:status}).then((data)=>{
+    //     修改
+    upDataClass=(state)=>{
+        let {brandName,sort,status,img,_id}=this.state
+        console.log( status);
+        this.$axios.post('http://10.60.12.88:8888/upDataBrandData',{brandName,sort,status,img,_id}).then((data)=>{
             // console.log(data)
+            // console.log('修改成功')
             if(data.data.code==1){
-                // console.log('aaa')
-                  this.setState({brandName:'',img:'',sort:'',status:1})
-                message.success("添加成功")
+                // console.log(status)
+                  this.setState({brandName,sort,status,img,_id})
+                this.props.history.push('/admin/brand')
             }
         })
 
+
+    }
+    componentDidMount(){
+        let data=this.props.location.status
+
+        if(data){
+            console.log(data)
+
+            let {brandName, sort,img,status,_id}=data;
+            if(status==1){
+                this.state.status=1
+            }else if(status==2){
+                this.state.status=2
+            }
+            this.setState({brandName, sort,img,status:this.state.status,_id})
+        }
 
     }
     render(){
         return(
             <div className={Style.box}>
                 <div className={Style.nav}>
-                    <div >新增品类</div>
+                    <div >修改品类</div>
                     <div><Button onClick={()=>{
                         this.props.history.go(-1)
                     }}>返回</Button></div>
@@ -57,9 +77,9 @@ class brandAdd extends Component{
                     <div className={Style.img}>
                         <div className={Style.text}>品类封面图:</div>
                         <div className={Style.Sub}>
-                         <Input type="text" value={this.state.img} onChange={(e)=>{
-                             this.setState({img:e.target.value})
-                         }} />
+                            <Input type="text" value={this.state.img} onChange={(e)=>{
+                                this.setState({img:e.target.value})
+                            }} />
                             <Button>点击上传</Button>
                         </div>
 
@@ -83,12 +103,14 @@ class brandAdd extends Component{
                         </div>
                     </div>
                     <div className={Style.button}>
-                       <Button onClick={this.addClass}>保存</Button>
-                        <Button>取消</Button>
+                        <Button onClick={this.upDataClass}>保存</Button>
+                        <Button onClick={(e)=>{
+                            this.props.history.go(-1)
+                        }}>取消</Button>
                     </div>
                 </div>
             </div>
         )
     }
 }
-export default withRouter(brandAdd)
+export default withRouter(brandUpdate)
