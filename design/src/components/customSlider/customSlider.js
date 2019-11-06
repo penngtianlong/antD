@@ -67,11 +67,12 @@ class CustomSlider extends React.Component{
     }
     componentDidMount(){
         this.$axios.post('http://10.60.12.88:8888/homeNav').then((res)=>{
-            console.log(res);
+            // console.log(res);
             if(res.code==1){
-                console.log(res.message);
+                // console.log(res.message);
+                this.state.rootList=res.list;
                 this.setState({rootList:res.list.data});
-                console.log(this.state.rootList);
+                // console.log(this.state.rootList);
             }
         })
 
