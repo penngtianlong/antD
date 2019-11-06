@@ -8,6 +8,8 @@ const Home=loadable(()=>import('./pages/home/home'))
 const Admin=loadable(()=>import('./pages/admin/admin'))
 const Category=loadable(()=>import('./pages/category/category'))
 const AddCategory=loadable(()=>import('./pages/category/addCategory'))
+const Feature=loadable(()=>import('./pages/feature/feature'));//特点
+const AddFeature=loadable(()=>import('./pages/addfeature/addfeature'));
 // const AddCategory=loadable(()=>import('./pages/category/addCategory'))
 
 class RootRoute extends React.Component{
@@ -23,6 +25,8 @@ class RootRoute extends React.Component{
                                 <Route path='/admin/home' component={Home}></Route>
                                 <Route path='/admin/category' component={Category}></Route>
                                 <Route path='/admin/addCategory' component={AddCategory}></Route>
+                                <Route path='/admin/feature' component={Feature}></Route>
+                                <Route path='/admin/addfeature' component={AddFeature}></Route>
                             </Admin>
                         )
                     }}></Route>
