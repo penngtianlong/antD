@@ -18,10 +18,15 @@ class Login extends React.Component{
                         // return;
                         if(res.code===1){
                             // 存值
+<<<<<<< HEAD
                             // webStorage.setItem('rootList',data.rootList)
                             webStorage.setItem('token',res.token)
                             webStorage.setItem('uid',res.data[0].uid);
                             webStorage.setItem('username',res.data[0].username)
+=======
+                            webStorage.setItem('token',res.token)
+                            webStorage.setItem('uid',res.uid);
+>>>>>>> ef08c9d8fafc70c06ce09d07605f4d77c16c3f98
 
                             this.props.history.push('/admin/home')
                             // 跳转到首页
