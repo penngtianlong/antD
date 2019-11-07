@@ -25,13 +25,15 @@ class RootRoute extends React.Component {
                         return (
                             <Admin>
                                 <Route path='/admin/home' component={Home}></Route>
+                                
                                 <Route path='/admin/category' component={Category}></Route>
+                                <Route path='/admin/addCategory' component={AddCategory}></Route>
 
                                 <Route exact path='/admin/brand' component={Brand}></Route>
                                 <Route exact path='/admin/brandAdd' component={BrandAdd}></Route>
                                 <Route exact path='/admin/brandUpdate' component={BrandUpdate}></Route>
 
-                                <Route path='/admin/addCategory' component={AddCategory}></Route>
+
                                 <Route path='/admin/feature' component={Feature}></Route>
                                 <Route path='/admin/addfeature' component={AddFeature}></Route>
                             </Admin>
