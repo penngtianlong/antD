@@ -13,27 +13,25 @@ b.显示数据
 2.删除管理员
 3.修改管理员权限
 */
-
 const options = [
     {
         value: '不限',
         label: '不限',
     },
     {
-        value: '启用',
+        value: 'true',
         label: '启用',
     },
     {
-        value: '停用',
+        value: 'false',
         label: '停用',
     },
 ];
-
-function onChange(value) {
-    console.log(value);
+function onChange(value){
+    return value
 }
-
 class Classify extends React.Component{
+
     columns = [
         {
             title: '分类ID',
@@ -56,14 +54,14 @@ class Classify extends React.Component{
             key: 'sort',
         },
         {
+            //__v
             title: '状态',
-            dataIndex: '__v',
-            key: '__v',
+            dataIndex: 'status',
+            key: 'status',
             render(data) {
-                console.log(data)
-                let __v={'0':'停用','1':"启用"}
+                let status={'false':'停用','true':"启用"}
                 return(
-                    <span>{__v[data]}</span>
+                    <span>{status[data]}</span>
                 )
             },
         },
@@ -71,10 +69,11 @@ class Classify extends React.Component{
             title: '操作',
             key: 'action',
             render:(data)=>{
-                console.log('删除按钮',data,this)
                 return(
                     <div>
-                        <Button size='small' onClick={this.delClassify.bind(this,data)}>删除</Button>|<Button size='small'>修改</Button>
+                        <Button size='small' onClick={this.delClassify.bind(this,data)}>删除</Button>|<Button size='small' onClick={()=>{
+                        this.props.history.push({pathname:'/admin/classifyupdate',state:data})
+                    }}>修改</Button>
                     </div>
                 )
             },
@@ -84,18 +83,29 @@ class Classify extends React.Component{
         super()
         this.state={
             dataSource:[],
+            classifyName:''
         }
     }
     componentDidMount(){
-
         this.getClassifyList()
+    }
+    selClassify=()=>{
+       let {classifyName,status}=this.state
+        this.$axios.post('/hehe/getClassifyNav',{classifyName,status})
+            .then((res)=>{
+                // console.log('hahahahahaaha',res)
+                res.list.map((item,index)=>{
+                    item.cid=index+1
+                })
+                if (res.code===1){
+                    this.setState({dataSource:res.list})
+                }
+            })
     }
     getClassifyList=()=>{
         let cid
-        console.log(this)
-        this.$axios.post('http://10.60.12.88:8888/getClassifyNav')
+        this.$axios.post('/hehe/getClassifyNav')
             .then((res)=>{
-                console.log(res)
                 res.list.map((item,index)=>{
                     item.cid=index+1
                 })
@@ -105,8 +115,7 @@ class Classify extends React.Component{
             })
     }
     delClassify=(_id)=>{
-        console.log('删除'+_id)
-        this.$axios.post('http://10.60.12.88:8888/delClassifyNav',{_id})
+        this.$axios.post('/hehe/delClassifyNav',{_id})
             .then((data)=>{
                 if(data.code === 1){
                     message.success('删除成功')
@@ -115,26 +124,26 @@ class Classify extends React.Component{
                 }
             })
     }
-    // updateClassify=(data)=>{
-    //     console.log('修改数据',data)
-    //     this.data=data
-    //     this.setState({updateShow:true})
-    // }
 
     render(){
-        let {dataSource}=this.state
+        let {dataSource,classifyName,status}=this.state
         return(
             <div className={Style.classfify}>
                 <div className={Style.search1}>
-                    <span>请输入查询条件：</span>
+                    <span className={Style.putin}>请输入查询条件：</span>
                     <div className={Style.search}>
-                        <span className={Style.word}>分类名称:</span><div className={Style.inp}><Input placeholder="分类名称" /></div>
-                        <span className={Style.word}>分类状态:</span><div className={Style.inp}><Cascader options={options} onChange={onChange} placeholder="不限" /></div>
-                        <div  className={Style.btn}><Button>查询</Button></div>
+                        <span className={Style.word}>分类名称:</span><div className={Style.inp}><Input placeholder="分类名称" value={classifyName} onChange={(e)=>{
+                        this.setState({classifyName:e.target.value})
+                    }}/></div>
+                        <span className={Style.word}>分类状态:</span><div className={Style.inp}><Cascader options={options}  placeholder="不限" onChange={(value)=>{
+                        this.setState({status:value})
+                    }} /></div>
+                        <div  className={Style.btn}><Button onClick={this.selClassify}>查询</Button></div>
                     </div>
                 </div>
-                <Button onClick={()=>{
-                    // this.props.history.push('/classifyadd')
+                <Button className={Style.newadd} onClick={()=>{
+                    // console.log(this)
+                    this.props.history.push('/admin/classifyadd')
                     // alert('跳转到新增分类')
                 }}>新增分类</Button>
                 <Card title='分类列表'>
@@ -149,4 +158,4 @@ class Classify extends React.Component{
     }
 }
 // export default connect(state=>state)(withRouter(App))
-export default Classify
+export default withRouter(Classify)
