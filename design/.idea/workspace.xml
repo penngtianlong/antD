@@ -90,7 +90,18 @@
 =======
 <<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+<<<<<<< HEAD
 >>>>>>> ea7c8a1f73201bce06df774c1c60ab5f162712fb
+=======
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+=======
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+>>>>>>> cdef8fc24f45bddc682ec3ad415260c95d321b3c
       <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -178,9 +189,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#135#168#0" expanded="true" />
+=======
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
               </folding>
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
             </state>
@@ -188,6 +206,15 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
+      <file leaf-file-name="classify.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/classify/classify.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="97" column="32" lean-forward="true" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+              <folding>
+                <element signature="e#42#133#0" expanded="true" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://E:/pengtianlong/aaa/config/webpack.config.js">
@@ -203,6 +230,7 @@
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
 <<<<<<< HEAD
       <file leaf-file-name="customSlider.js" pinned="false" current-in-tab="false">
@@ -212,7 +240,11 @@
               <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
               </folding>
 =======
       <file leaf-file-name="axios.js" pinned="false" current-in-tab="false">
@@ -229,6 +261,24 @@
       </file>
 <<<<<<< HEAD
 <<<<<<< HEAD
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classfyadd.module.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/classify/classfyadd.module.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-92">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding />
+=======
+<<<<<<< HEAD
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -236,6 +286,7 @@
               <caret line="493" column="18" selection-start-line="493" selection-start-column="18" selection-end-line="493" selection-end-column="18" />
 =======
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
 <<<<<<< HEAD
       <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
@@ -246,6 +297,7 @@
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
             </state>
           </provider>
         </entry>
@@ -260,6 +312,43 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="252">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classifyadd.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/classify/classifyadd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classify.module.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/classify/classify.module.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <folding />
+=======
             <state relative-caret-position="162">
               <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
@@ -300,7 +389,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sass</find>
+<<<<<<< HEAD
+      <find>__v</find>
+=======
       <find>babel</find>
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -310,6 +403,20 @@
     <option name="CHANGED_PATHS">
       <list>
 <<<<<<< HEAD
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/store/store.js" />
+        <option value="$PROJECT_DIR$/src/pages/clssify/classify.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/pages/classify/classify.module.less" />
+        <option value="$PROJECT_DIR$/config/webpackDevServer.config.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/utils/axios.js" />
+        <option value="$PROJECT_DIR$/src/pages/classify/classify.js" />
+        <option value="$PROJECT_DIR$/src/pages/classify/classfyadd.module.less" />
+        <option value="$PROJECT_DIR$/src/pages/classify/classifyadd.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+=======
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
         <option value="$PROJECT_DIR$/src/App.js" />
 <<<<<<< HEAD
@@ -370,8 +477,12 @@
 <<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
 =======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
       </list>
     </option>
   </component>
@@ -393,6 +504,12 @@
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="559" />
+    <option name="y" value="16" />
+    <option name="width" value="768" />
+=======
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -402,6 +519,7 @@
     <option name="x" value="688" />
     <option name="width" value="700" />
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
     <option name="height" value="735" />
 =======
   <component name="PackageJsonUpdateNotifier">
@@ -415,8 +533,12 @@
 <<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
 =======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -435,6 +557,11 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
+      <pane id="Scope" />
+      <pane id="Scratches" />
+=======
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
 <<<<<<< HEAD
 =======
@@ -442,7 +569,11 @@
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
 >>>>>>> ea7c8a1f73201bce06df774c1c60ab5f162712fb
       <pane id="Scope" />
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+>>>>>>> cdef8fc24f45bddc682ec3ad415260c95d321b3c
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -488,6 +619,9 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
               <item name="pages" type="462c0819:PsiDirectoryNode" />
 =======
@@ -502,13 +636,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="addfeature" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="classify" type="462c0819:PsiDirectoryNode" />
+=======
               <item name="feature" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
@@ -548,6 +687,8 @@
 =======
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+<<<<<<< HEAD
+=======
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -556,12 +697,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\齐丹萍\Desktop\qdptest\antD\design\src\img" />
     </key>
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\reactAantd\antD\design\src\pages" />
     </key>
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -597,6 +742,9 @@
 <<<<<<< HEAD
       <workItem from="1572833479166" duration="1978000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+      <workItem from="1572839919026" duration="30594000" />
+=======
       <workItem from="1572837284951" duration="407000" />
       <workItem from="1572837712188" duration="20449000" />
       <workItem from="1572918218375" duration="20856000" />
@@ -604,6 +752,7 @@
       <workItem from="1572945555695" duration="65000" />
       <workItem from="1572945803068" duration="3599000" />
       <workItem from="1572956944578" duration="37000" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
       <workItem from="1572839300604" duration="22813000" />
       <workItem from="1572914798277" duration="4501000" />
@@ -613,8 +762,12 @@
 <<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
 =======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
     </task>
     <servers />
   </component>
@@ -623,6 +776,11 @@
     <option name="totallyTimeSpent" value="29347000" />
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="32572000" />
+=======
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="35188000" />
@@ -655,13 +813,41 @@
 =======
 <<<<<<< HEAD
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
     <option name="totallyTimeSpent" value="29292000" />
+<<<<<<< HEAD
 >>>>>>> ea7c8a1f73201bce06df774c1c60ab5f162712fb
+=======
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+>>>>>>> cdef8fc24f45bddc682ec3ad415260c95d321b3c
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27041358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> cdef8fc24f45bddc682ec3ad415260c95d321b3c
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -762,9 +948,16 @@
 <<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
 =======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+<<<<<<< HEAD
 >>>>>>> ea7c8a1f73201bce06df774c1c60ab5f162712fb
+=======
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
+>>>>>>> cdef8fc24f45bddc682ec3ad415260c95d321b3c
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -895,6 +1088,14 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1012,6 +1213,7 @@
         <state relative-caret-position="14784">
           <caret line="672" column="27" selection-start-line="672" selection-start-column="27" selection-end-line="672" selection-end-column="27" />
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
 >>>>>>> ea7c8a1f73201bce06df774c1c60ab5f162712fb
     <entry file="file://$PROJECT_DIR$/src/router.js">
@@ -1020,10 +1222,33 @@
           <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+=======
     <entry file="file://$PROJECT_DIR$/src/pages/login/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
@@ -1051,11 +1276,24 @@
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+<<<<<<< HEAD
+            <element signature="e#135#168#0" expanded="true" />
+=======
             <element signature="e#160#198#0" expanded="true" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+=======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1075,20 +1313,46 @@
           <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/src/components/customSlider/customSlider.js">
 =======
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
     <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="4053">
+          <caret line="695" column="0" lean-forward="false" selection-start-line="695" selection-start-column="0" selection-end-line="695" selection-end-column="0" />
+          <folding />
+=======
         <state relative-caret-position="2376">
           <caret line="73" column="49" lean-forward="false" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
         </state>
       </provider>
     </entry>
@@ -1117,8 +1381,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="201">
+          <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#135#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/table/Table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="1131" column="0" lean-forward="false" selection-start-line="1131" selection-start-column="0" selection-end-line="1131" selection-end-column="0" />
+=======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
           <folding />
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
         </state>
@@ -1127,8 +1415,14 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
         <state relative-caret-position="132">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
         <state relative-caret-position="216">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
@@ -1563,6 +1857,9 @@
           </folding>
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
         </state>
       </provider>
@@ -1599,6 +1896,11 @@
     <entry file="file://$PROJECT_DIR$/src/utils/axios.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="252">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+=======
         <state relative-caret-position="308">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
@@ -1608,6 +1910,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
 <<<<<<< HEAD
         <state relative-caret-position="432">
@@ -1720,6 +2023,9 @@
         <state relative-caret-position="162">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
         </state>
       </provider>
@@ -1770,12 +2076,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
           <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+<<<<<<< HEAD
 >>>>>>> ea7c8a1f73201bce06df774c1c60ab5f162712fb
+=======
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
+>>>>>>> cdef8fc24f45bddc682ec3ad415260c95d321b3c
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/classify/classfyadd.module.less">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-92">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/classify/classify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="97" column="32" lean-forward="true" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
         <state>
@@ -1800,6 +2122,29 @@
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
 <<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+          <folding>
+            <element signature="e#42#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/classify/classify.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/classify/classifyadd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+=======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
 =======
 >>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
 >>>>>>> 17de9713f1251c3f730a9b41026937990c519905
@@ -1807,6 +2152,7 @@
             <element signature="e#0#26#0" expanded="true" />
             <element signature="e#160#198#0" expanded="true" />
 >>>>>>> ptl
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
           </folding>
         </state>
       </provider>

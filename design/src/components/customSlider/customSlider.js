@@ -7,53 +7,7 @@ import Style from './index.module.less'
 
 import { Menu, Icon } from 'antd';
 const { SubMenu } = Menu;
-// const root=[
-//   {
-//     name:'分类',
-//     path:'/admin/classify',
-//     key:'/admin/classify'
-//   },
-//   {
-//     name:'品类',
-//     path:'/admin/category',
-//     key:'/admin/category'
-//   },
-//   {
-//     name:'特点',
-//     path:'/admin/feature',
-//     key:'/admin/feature'
-//   },
-//     {
-//         name:'商品',
-//         path:'/admin/goods',
-//         key:'/admin/goods'
-//     },
-//     {
-//         name:'用品品牌',
-//         path:'/admin/brand',
-//         key:'/admin/brand'
-//     },
-//     {
-//         name:'汽车品牌',
-//         path:'/admin/car_brand',
-//         key:'/admin/car_brand'
-//     },
-//     {
-//         name:'车系',
-//         path:'/admin/line',
-//         key:'/admin/line'
-//     },
-//     {
-//         name:'排行榜',
-//         path:'/admin/list',
-//         key:'/admin/list'
-//     },
-//
-// ]
-//
 
-
-// const root =webStorage.getItem('rootList')
 
 
 
