@@ -2,6 +2,8 @@ import React from 'react';
 import {Layout,Menu,Icon,Dropdown,Button} from 'antd';
 import {withRouter} from 'react-router-dom'
 import CustomSlider from '../../components/customSlider/customSlider'
+import Modal from '../../components/modal/modal'
+import webStorage from '../../utils/webstorage'
 const {Header,Content,Footer,Sider}=Layout;
 class Admin extends React.Component{
     renderMenu=()=>{
@@ -14,8 +16,17 @@ class Admin extends React.Component{
         )
 
     }
+    //安全退出
     logout=()=>{
-        this.props.history.replace('/login')
+        this.$axios.post('/hehe/outLogin').then((res)=>{
+            if(res.code===1){
+                // webStorage.setItem('token')='';
+                localStorage.removeItem('uid')
+                localStorage.removeItem('token')
+                this.props.history.replace('/login')
+            }
+        })
+
     }
     render(){
         return(
@@ -38,13 +49,14 @@ class Admin extends React.Component{
                         </Dropdown>
                     </Header>
                     <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
+
                         <div style={{ padding: 24, background: '#fff', textAlign: 'center' }}>
                             {this.props.children}
                         </div>
                     </Content>
                     <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
                 </Layout>
-                {/*<Modal></Modal>*/}
+                <Modal></Modal>
             </Layout>
         )
     }

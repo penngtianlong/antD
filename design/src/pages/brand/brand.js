@@ -177,7 +177,7 @@ class Brand extends Component{
                         <Button onClick={()=>{
                             this.props.history.push('/admin/brandAdd')
                         }}>新增品牌</Button>
-                     <Table dataSource={this.state.dataSource} columns={this.columns} pagination={false}>;
+                     <Table dataSource={this.state.dataSource} columns={this.columns} >;
                      </Table>
 
                     </Card>
