@@ -5,7 +5,7 @@ const Login = loadable(() => import('./pages/login/login'))
 const Home = loadable(() => import('./pages/home/home'))
 const Admin = loadable(() => import('./pages/admin/admin'))
 const Category = loadable(() => import('./pages/category/category'))
-//用品品牌
+
 const Brand = loadable(() => import('./pages/brand/brand'))
 const BrandAdd = loadable(() => import('./pages/brand/brandAdd'))
 const BrandUpdate = loadable(() => import('./pages/brand/brandUpdate'))
@@ -26,11 +26,11 @@ class RootRoute extends React.Component {
                             <Admin>
                                 <Route path='/admin/home' component={Home}></Route>
                                 <Route path='/admin/category' component={Category}></Route>
-                                //用品品牌
+
                                 <Route exact path='/admin/brand' component={Brand}></Route>
                                 <Route exact path='/admin/brandAdd' component={BrandAdd}></Route>
                                 <Route exact path='/admin/brandUpdate' component={BrandUpdate}></Route>
-                                //
+
                                 <Route path='/admin/addCategory' component={AddCategory}></Route>
                                 <Route path='/admin/feature' component={Feature}></Route>
                                 <Route path='/admin/addfeature' component={AddFeature}></Route>
