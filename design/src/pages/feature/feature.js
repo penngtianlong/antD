@@ -125,7 +125,7 @@ class Feature extends Component{
     renderSelect=(arr,caditon)=>{
         switch (caditon) {
             case "classifyName":
-                // console.log(arr)
+                console.log(arr)
                 return (
                     <Select defaultValue="" style={{ width: 120 }} onChange={this.handleChange.bind(this,caditon)}>
                         {arr.map((item,index)=>(<Option key={index} value={item.classifyName}>{item.classifyName}</Option>))}
@@ -226,7 +226,7 @@ class Feature extends Component{
                                 </div>
                                 <div className={Style.selectItem}>
                                     <label className={Style.labelName}>特点名称：</label>
-                                    <div className={Style.nameInput}><Input placeholder="特点名称" value={this.state.mFeatureName} onChange={(e)=>{this.setState({mFeatureName:e.target.value});{/*console.log(this.state.mFeatureName)*/}}} /></div>
+                                    <div className={Style.nameInput}><Input placeholder="特点名称" value={this.state.traitName} onChange={(e)=>{this.setState({traitName:e.target.value});{/*console.log(this.state.mFeatureName)*/}}} /></div>
                                 </div>
                                 <div className={Style.selectItem}>
                                     <label className={Style.labelName}>特点状态：</label>
