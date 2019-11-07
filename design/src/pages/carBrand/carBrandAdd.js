@@ -1,8 +1,8 @@
-     import React ,{Component} from 'react'
+import React ,{Component} from 'react'
 import {Button,Input,Radio,message} from 'antd'
-import Style from './brandAdd.module.less'
+import Style from './carBrandAdd.module.less'
 import {withRouter} from 'react-router-dom'
-class brandAdd extends Component{
+class carBrandAdd extends Component{
     constructor(){
         super();
         this.state={
@@ -91,4 +91,4 @@ class brandAdd extends Component{
         )
     }
 }
-export default withRouter(brandAdd)
+export default withRouter(carBrandAdd)

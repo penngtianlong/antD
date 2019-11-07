@@ -9,6 +9,10 @@ const Category = loadable(() => import('./pages/category/category'))
 const Brand = loadable(() => import('./pages/brand/brand'))
 const BrandAdd = loadable(() => import('./pages/brand/brandAdd'))
 const BrandUpdate = loadable(() => import('./pages/brand/brandUpdate'))
+
+const CarBrand = loadable(() => import('./pages/carBrand/carBrand'))
+const CarBrandAdd = loadable(() => import('./pages/carBrand/carBrandAdd'))
+const CarBrandUpdate = loadable(() => import('./pages/carBrand/carBrandUpdate'))
 //
 const AddCategory = loadable(() => import('./pages/category/addCategory'))
 const Feature = loadable(() => import('./pages/feature/feature'));//特点
@@ -30,6 +34,11 @@ class RootRoute extends React.Component {
                                 <Route exact path='/admin/brand' component={Brand}></Route>
                                 <Route exact path='/admin/brandAdd' component={BrandAdd}></Route>
                                 <Route exact path='/admin/brandUpdate' component={BrandUpdate}></Route>
+
+                                <Route exact path='/admin/car_brand
+                                ' component={CarBrand}></Route>
+                                <Route exact path='/admin/carBrandAdd' component={CarBrandAdd}></Route>
+                                <Route exact path='/admin/carBrandUpdate' component={CarBrandUpdate}></Route>
 
                                 <Route path='/admin/addCategory' component={AddCategory}></Route>
                                 <Route path='/admin/feature' component={Feature}></Route>
