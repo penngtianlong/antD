@@ -1,5 +1,5 @@
 // import {Card,Table,Button} from 'antd'
-import {Card,Table, message,Pagination,Spin, Popconfirm,Button,Input, Cascader} from 'antd'
+import {Card,Table, message,Pagination,Spin, Popconfirm,Button,Input, Cascader,Form, Icon} from 'antd'
 import React from 'react';
 import {withRouter} from 'react-router-dom'
 import {connect} from 'react-redux'
@@ -115,6 +115,7 @@ class Classify extends React.Component{
         let cid
         this.$axios.post('/hehe/getClassifyNav')
             .then((res)=>{
+            console.log('hhhhh',res)
                 res.list.map((item,index)=>{
                     item.cid=index+1
                 })

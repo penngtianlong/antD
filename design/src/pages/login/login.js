@@ -19,8 +19,8 @@ class Login extends React.Component{
                         if(res.code===1){
                             // 存值
                             // webStorage.setItem('rootList',data.rootList)
-                            // webStorage.setItem('token',data.token)
-                            webStorage.setItem('uid',res.data[0]._id);
+                            webStorage.setItem('token',res.token)
+                            webStorage.setItem('uid',res.data[0].uid);
                             webStorage.setItem('username',res.data[0].username)
 
                             this.props.history.push('/admin/home')
