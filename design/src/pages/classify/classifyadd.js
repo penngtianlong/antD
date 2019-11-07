@@ -31,7 +31,7 @@ class ClassifyAdd extends React.Component{
         this.$axios.post('/hehe/addClassifyNav',{classifyName,sort,status})
             .then((data)=>{
             console.log(data)
-                if(data.code===1){
+                if(data.data.code===1){
                     message.success('添加成功')
                 }
             })

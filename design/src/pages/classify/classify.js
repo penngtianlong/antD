@@ -32,6 +32,7 @@ function onChange(value){
 }
 class Classify extends React.Component{
 
+
     columns = [
         {
             title: '分类ID',
@@ -71,7 +72,15 @@ class Classify extends React.Component{
             render:(data)=>{
                 return(
                     <div>
-                        <Button size='small' onClick={this.delClassify.bind(this,data)}>删除</Button>|<Button size='small' onClick={()=>{
+                        <Popconfirm
+                            title="Are you sure delete this task?"
+                            onConfirm={this.delClassify.bind(this,data)}
+                            okText="Yes"
+                            cancelText="No"
+                        >
+                            <Button size='small' >删除</Button>
+                        </Popconfirm>
+                        |<Button size='small' onClick={()=>{
                         this.props.history.push({pathname:'/admin/classifyupdate',state:data})
                     }}>修改</Button>
                     </div>
@@ -148,7 +157,7 @@ class Classify extends React.Component{
                 }}>新增分类</Button>
                 <Card title='分类列表'>
                     <Table
-                        pagination={false}
+
                         dataSource={dataSource}
                         columns={this.columns}>
                     </Table>

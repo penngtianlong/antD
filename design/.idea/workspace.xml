@@ -1,18 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ba71278-5316-45e3-9ef0-257262ffec37" name="Default" comment="" />
+    <list default="true" id="9ba71278-5316-45e3-9ef0-257262ffec37" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/addfeature/addfeature.module.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/axios.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1712180178">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="8" />
+          <entry key="json" value="1" />
+          <entry key="less" value="3" />
+          <entry key="ts" value="1" />
+          <entry key="xsl" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="8" />
+          <entry key="Less" value="3" />
+          <entry key="TypeScript" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="2849" />
+          <entry key="less" value="587" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="2849" />
+          <entry key="Less" value="587" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="design" />
+  </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/feature/feature.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+=======
 <<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
@@ -32,19 +104,52 @@
                 <element signature="e#0#36#0" expanded="true" />
 =======
     <leaf>
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#239#276#0" expanded="true" />
+              </folding>
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+<<<<<<< HEAD
+                <element signature="e#160#198#0" expanded="true" />
+=======
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="brand.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+>>>>>>> ptl
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+=======
 <<<<<<< HEAD
       <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/login/login.js">
@@ -69,15 +174,23 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+<<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#135#168#0" expanded="true" />
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
               </folding>
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="classify.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/classify/classify.js">
@@ -88,6 +201,23 @@
                 <element signature="e#42#133#0" expanded="true" />
 =======
 <<<<<<< HEAD
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://E:/pengtianlong/aaa/config/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="388" column="21" lean-forward="true" selection-start-line="388" selection-start-column="21" selection-end-line="388" selection-end-column="21" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/addfeature/addfeature.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="122" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
+=======
+<<<<<<< HEAD
       <file leaf-file-name="customSlider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/customSlider/customSlider.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,7 +225,11 @@
               <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="28" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
+<<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
               </folding>
 =======
       <file leaf-file-name="axios.js" pinned="false" current-in-tab="false">
@@ -104,10 +238,12 @@
             <state relative-caret-position="189">
               <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="reducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
@@ -125,6 +261,16 @@
             <state relative-caret-position="-92">
               <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
+=======
+<<<<<<< HEAD
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3450">
+              <caret line="493" column="18" selection-start-line="493" selection-start-column="18" selection-end-line="493" selection-end-column="18" />
+=======
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
 <<<<<<< HEAD
       <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
@@ -195,11 +341,17 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+>>>>>>> ptl
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="XSLT Stylesheet" />
         <option value="JavaScript File" />
         <option value="less" />
       </list>
@@ -215,9 +367,13 @@
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/store/store.js" />
         <option value="$PROJECT_DIR$/src/pages/clssify/classify.js" />
@@ -231,7 +387,19 @@
         <option value="$PROJECT_DIR$/src/pages/classify/classifyadd.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
 =======
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
+=======
         <option value="$PROJECT_DIR$/src/App.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/store/store.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/pages/feature/feature.module.less" />
+        <option value="$PROJECT_DIR$/src/utils/axios.js" />
+        <option value="$PROJECT_DIR$/src/pages/addfeature/addfeature.module.less" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/addfeature/addfeature.js" />
+        <option value="$PROJECT_DIR$/src/pages/feature/feature.js" />
+=======
         <option value="$PROJECT_DIR$/src/store/actionCreator.js" />
         <option value="$PROJECT_DIR$/src/store/store.js" />
         <option value="$PROJECT_DIR$/src/store/reducer.js" />
@@ -243,9 +411,27 @@
         <option value="$PROJECT_DIR$/package.json" />
 =======
         <option value="$PROJECT_DIR$/src/store/store.js" />
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
         <option value="$PROJECT_DIR$/src/store/action.js" />
+        <option value="$PROJECT_DIR$/src/utils/axios.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/store/actionCreator.js" />
+        <option value="$PROJECT_DIR$/src/store/store.js" />
         <option value="$PROJECT_DIR$/src/store/reducer.js" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/config/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/pages/brand/index.module.less" />
+        <option value="E:/pengtianlong/work/1000phone/0723/liax/lianxi.html" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/pages/brand/brandAdd.module.less" />
+        <option value="$PROJECT_DIR$/src/pages/brand/brandAdd.js" />
+=======
+        <option value="$PROJECT_DIR$/src/store/reducer.js" />
+>>>>>>> ptl
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/brand/brand.module.less" />
+        <option value="$PROJECT_DIR$/src/pages/brand/brand.js" />
+=======
         <option value="$PROJECT_DIR$/src/utils/axios.js" />
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -259,7 +445,15 @@
         <option value="$PROJECT_DIR$/src/pages/category/category.module.less" />
         <option value="$PROJECT_DIR$/src/pages/category/category.js" />
         <option value="$PROJECT_DIR$/src/pages/login/login.js" />
+<<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
       </list>
     </option>
   </component>
@@ -280,10 +474,23 @@
     </packageJsonPaths>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="559" />
     <option name="y" value="16" />
     <option name="width" value="768" />
+=======
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="768" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="x" value="688" />
+    <option name="width" value="700" />
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
     <option name="height" value="735" />
 =======
   <component name="PackageJsonUpdateNotifier">
@@ -294,8 +501,17 @@
     <option name="y" value="74" />
     <option name="width" value="1348" />
     <option name="height" value="972" />
+<<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -312,10 +528,14 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
 =======
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
+=======
       <pane id="Scratches" />
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
       <pane id="Scope" />
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
       <pane id="ProjectPane">
@@ -360,6 +580,16 @@
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+>>>>>>> ptl
+=======
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,7 +597,19 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="addfeature" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
+            </path>
+            <path>
+              <item name="design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="classify" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="feature" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
@@ -380,6 +622,7 @@
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
             </path>
           </expand>
           <select />
@@ -398,6 +641,11 @@
     <property name="node.js.selected.package.standard" value="E:\reactAantd\antD\design\node_modules\eslint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<< HEAD
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="D:\WebStorm 2018.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+=======
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
 <<<<<<< HEAD
@@ -410,7 +658,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\齐丹萍\Desktop\qdptest\antD\design\src\img" />
     </key>
+<<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\reactAantd\antD\design\src\pages" />
+    </key>
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -438,24 +695,83 @@
       <option name="presentableId" value="Default" />
       <updated>1572833472102</updated>
 <<<<<<< HEAD
+      <workItem from="1572833479166" duration="25386000" />
+      <workItem from="1572913918756" duration="8644000" />
+      <workItem from="1572933815730" duration="218000" />
+      <workItem from="1572934183238" duration="39000" />
+=======
+<<<<<<< HEAD
       <workItem from="1572833479166" duration="1978000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1572839919026" duration="30594000" />
+=======
+      <workItem from="1572837284951" duration="407000" />
+      <workItem from="1572837712188" duration="20449000" />
+      <workItem from="1572918218375" duration="20856000" />
+      <workItem from="1572945347302" duration="125000" />
+      <workItem from="1572945555695" duration="65000" />
+      <workItem from="1572945803068" duration="3599000" />
+      <workItem from="1572956944578" duration="37000" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
       <workItem from="1572839300604" duration="22813000" />
       <workItem from="1572914798277" duration="4501000" />
 =======
       <workItem from="1572833479166" duration="4579000" />
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+<<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="32572000" />
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="35188000" />
+=======
+    <option name="totallyTimeSpent" value="2366000" />
+>>>>>>> ptl
+=======
+=======
+    <option name="totallyTimeSpent" value="47516000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="688" y="0" width="700" height="735" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49508196" visible="true" weight="0.55438066" />
+      <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" weight="0.27306548" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.50491804" side_tool="true" weight="0.27306548" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+=======
+<<<<<<< HEAD
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
     <option name="totallyTimeSpent" value="29292000" />
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
   </component>
@@ -501,30 +817,82 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
 =======
     <option name="totallyTimeSpent" value="4579000" />
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17336309" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21056548" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info id="npm" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5637255" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.46732026" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.5" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13541667" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+>>>>>>> ptl
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5637255" />
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30491802" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+<<<<<<< HEAD
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+=======
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
+=======
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.07026144" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+>>>>>>> ptl
+=======
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+<<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -558,12 +926,133 @@
   </component>
   <component name="editorHistoryManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actionCreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1011">
+          <caret line="468" column="13" selection-start-line="468" selection-start-column="13" selection-end-line="468" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/pages/rootList/rootList.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/feature/213.xsl" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="3" column="58" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14784">
+          <caret line="672" column="27" selection-start-line="672" selection-start-column="27" selection-end-line="672" selection-end-column="27" />
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
     <entry file="file://$PROJECT_DIR$/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -625,7 +1114,11 @@
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+<<<<<<< HEAD
             <element signature="e#135#168#0" expanded="true" />
+=======
+            <element signature="e#160#198#0" expanded="true" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
           </folding>
         </state>
       </provider>
@@ -638,6 +1131,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="false" />
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.module.less" />
 =======
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/index.js">
@@ -744,15 +1249,21 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
           <folding />
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="132">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
         <state relative-caret-position="216">
           <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
@@ -777,6 +1288,7 @@
         </state>
       </provider>
     </entry>
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
     <entry file="file://$PROJECT_DIR$/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -789,6 +1301,186 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/store/actionCreator.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+>>>>>>> ptl
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/pages/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/0723/liax/lianxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1011">
+          <caret line="468" column="13" selection-start-line="468" selection-start-column="13" selection-end-line="468" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/pages/rootList/rootList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/pages/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/0723/liax/lianxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.module.less" />
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.js" />
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.module.less" />
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> ptl
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/utils/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -819,16 +1511,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="54">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+=======
         <state relative-caret-position="27">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+    <entry file="file://E:/pengtianlong/aaa/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-2259" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+=======
 <<<<<<< HEAD
         <state relative-caret-position="108">
           <caret line="3" column="58" lean-forward="false" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
@@ -842,14 +1551,61 @@
 =======
         <state relative-caret-position="81">
           <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#160#198#0" expanded="true" />
           </folding>
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
         </state>
       </provider>
     </entry>
+>>>>>>> ptl
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="385" column="75" lean-forward="true" selection-start-line="385" selection-start-column="75" selection-end-line="385" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="493" column="18" selection-start-line="493" selection-start-column="18" selection-end-line="493" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/axios.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/aaa/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="388" column="21" lean-forward="true" selection-start-line="388" selection-start-column="21" selection-end-line="388" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.js">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
         <state relative-caret-position="0">
@@ -889,20 +1645,111 @@
           <folding />
 =======
         <state>
+<<<<<<< HEAD
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="135">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+=======
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193" />
+      </provider>
+    </entry>
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="565" column="8" selection-start-line="565" selection-start-column="8" selection-end-line="565" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actionCreator.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
     <entry file="file://$PROJECT_DIR$/src/utils/axios.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="252">
           <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
+=======
+        <state relative-caret-position="308">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/feature/feature.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
 =======
 <<<<<<< HEAD
         <state relative-caret-position="432">
@@ -959,12 +1806,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/store/actionCreator.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/actionCreator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1011">
+          <caret line="468" column="13" selection-start-line="468" selection-start-column="13" selection-end-line="468" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/pages/rootList/rootList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/pages/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/0723/liax/lianxi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+<<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brandAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/brand/brand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pengtianlong/work/1000phone/reactdemo/react/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
         </state>
       </provider>
     </entry>
@@ -983,12 +1948,28 @@
           <caret line="97" column="32" lean-forward="true" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#239#276#0" expanded="true" />
+=======
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="27" />
+=======
+        <state relative-caret-position="176">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+=======
+<<<<<<< HEAD
         <state relative-caret-position="432">
           <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
 =======
         <state relative-caret-position="82">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
 >>>>>>> 910888bf37bd53869b54b3a65e25062605700972
+<<<<<<< HEAD
 >>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
           <folding>
             <element signature="e#42#133#0" expanded="true" />
@@ -1010,10 +1991,36 @@
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+=======
+<<<<<<< HEAD
+>>>>>>> d140dc7f4ca304d0dfbe3e25c0db54e157148ba4
+=======
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
+>>>>>>> 17de9713f1251c3f730a9b41026937990c519905
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#160#198#0" expanded="true" />
+>>>>>>> ptl
+>>>>>>> 8a67e4d1f7a1919a6c50cdd36ed02dea37ce424a
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/pages/addfeature/addfeature.module.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/feature/feature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1048,16 +2055,26 @@
           <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/pages/addfeature/addfeature.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="122" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/src/pages/login/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+>>>>>>> fd64050b79a185d78c11b88d78a75e63c81dbe5e
           </folding>
         </state>
       </provider>

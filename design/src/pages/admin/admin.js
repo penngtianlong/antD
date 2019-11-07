@@ -7,12 +7,15 @@ class Admin extends React.Component{
     renderMenu=()=>{
         return(
             <Menu>
-                <Menu.Item>
+                <Menu.Item onClick={this.logout}>
                     <span>用户注销</span>
                 </Menu.Item>
             </Menu>
         )
 
+    }
+    logout=()=>{
+        this.props.history.replace('/login')
     }
     render(){
         return(
@@ -46,4 +49,4 @@ class Admin extends React.Component{
         )
     }
 }
- export default Admin
+ export default withRouter(Admin)

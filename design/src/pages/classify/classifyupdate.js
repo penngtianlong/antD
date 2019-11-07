@@ -45,7 +45,7 @@ class ClassifyUpdate extends React.Component{
         this.$axios.post('/hehe/upDataClassifyNav',{classifyName,sort,img,status,_id})
             .then((data)=>{
                 console.log('修改',data)
-                if(data.code===1){
+                if(data.data.code===1){
                     message.success('修改成功')
                 }
             })
