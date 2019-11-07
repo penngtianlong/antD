@@ -47,8 +47,8 @@ const useTypeScript = fs.existsSync(paths.appTsConfig);
 // style files regexes
 const cssRegex = /\.css$/;
 const cssModuleRegex = /\.module\.css$/;
-const lessRegex = /\.(less)$/;
-const lessModuleRegex = /\.module\.(less)$/;
+const lessRegex = /\.(scss|less)$/;
+const lessModuleRegex = /\.module\.(scss|less)$/;
 
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
@@ -383,7 +383,7 @@ module.exports = function(webpackEnv) {
                                 ),
 
                                 plugins: [
-                                    ['import',{ "libraryName": "antd", style: true }], //按需引入antd的样式文件
+                                    ['import',{'libraryName':"antd",style:true}],//按需引入样式文件
                                     [
                                         require.resolve('babel-plugin-named-asset-import'),
                                         {

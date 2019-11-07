@@ -1,11 +1,13 @@
 import React from 'react';
 import Loadable from 'react-loadable'
+import { Icon } from 'antd';
 
 //通用的过场组件
 const loadingComponent=()=>{
     return(
-        <div>
-            loading
+        <div className="icons-list">
+            {/*loading*/}
+            <Icon type="loading" />
         </div>
     )
 }

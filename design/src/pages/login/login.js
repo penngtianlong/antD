@@ -7,28 +7,31 @@ class Login extends React.Component{
 
     submit=()=>{
 
-        // this.props.form.validateFields((err,userinfo)=>{
-        //     // err验证是不是通过  通过 null
-        //     if(err){
-        //         message.error('信息输入有误请重试')
-        //     }else{
-        //         this.$axios.post('/hehe/v1/admin/user/login',userinfo)
-        //             .then((data)=>{
-        //                 console.log(data)
-        //                 if(data.err===0){
-        //                     // 存值
-        //                     webStorage.setItem('rootList',data.rootList)
-        //                     webStorage.setItem('token',data.token)
-        //                     webStorage.setItem('uid',data.uid)
-        //                     this.props.history.push('/admin/home')
-        //                     // 跳转到首页
-        //                 }else{
-        //
-        //                 }
-        //
-        //             })
-        //     }
-        // })
+        this.props.form.validateFields((err,userinfo)=>{
+            // err验证是不是通过  通过 null
+            if(err){
+                message.error('信息输入有误请重试')
+            }else{
+                this.$axios.post('http://10.60.12.88:8888/userLogin',userinfo)
+                    .then((res)=>{
+                        console.log(res)
+                        // return;
+                        if(res.code===1){
+                            // 存值
+                            // webStorage.setItem('rootList',data.rootList)
+                            // webStorage.setItem('token',data.token)
+                            webStorage.setItem('uid',res.data[0]._id);
+                            webStorage.setItem('username',res.data[0].username)
+
+                            this.props.history.push('/admin/home')
+                            // 跳转到首页
+                        }else{
+
+                        }
+
+                    })
+            }
+        })
 
 
     }

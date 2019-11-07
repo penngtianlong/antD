@@ -1,4 +1,4 @@
-import React from 'react';
+                                                                                                                                                   import React from 'react';
 import {Layout,Menu,Icon,Dropdown,Button} from 'antd';
 import {withRouter} from 'react-router-dom'
 import CustomSlider from '../../components/customSlider/customSlider'
@@ -7,12 +7,15 @@ class Admin extends React.Component{
     renderMenu=()=>{
         return(
             <Menu>
-                <Menu.Item>
+                <Menu.Item onClick={this.logout}>
                     <span>用户注销</span>
                 </Menu.Item>
             </Menu>
         )
 
+    }
+    logout=()=>{
+        this.props.history.replace('/login')
     }
     render(){
         return(
@@ -35,6 +38,7 @@ class Admin extends React.Component{
                         </Dropdown>
                     </Header>
                     <Content style={{ margin: '24px 16px 0', overflow: 'initial' }}>
+
                         <div style={{ padding: 24, background: '#fff', textAlign: 'center' }}>
                             {this.props.children}
                         </div>
@@ -46,4 +50,4 @@ class Admin extends React.Component{
         )
     }
 }
- export default Admin
+ export default withRouter(Admin)
