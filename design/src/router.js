@@ -20,13 +20,6 @@ const AddCategory = loadable(() => import('./pages/category/addCategory'))
 //特点
 const Feature = loadable(() => import('./pages/feature/feature'));
 const AddFeature = loadable(() => import('./pages/addfeature/addfeature'));
-
-
-
-
-
-
-
 class RootRoute extends React.Component {
     render() {
         return (
