@@ -16,7 +16,7 @@ axios.interceptors.request.use(function (config) {
 });
 axios.interceptors.response.use(function (response) {
     console.log('响应拦截器',response.data);
-    if(response.data.message==='token缺失'){
+    if(response.data.message==='token缺失'||response.data.message==='token失效'){
         // console.log('去登陆')
         let action=actionCreator.changeTokenModal(false)
         store.dispatch(action)

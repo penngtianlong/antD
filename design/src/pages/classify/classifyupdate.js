@@ -42,13 +42,31 @@ class ClassifyUpdate extends React.Component{
             status='true';
         }
         console.log('777',status,_id)
-        this.$axios.post('/hehe/upDataClassifyNav',{classifyName,sort,img,status,_id})
-            .then((data)=>{
-                console.log('修改',data)
-                if(data.data.code===1){
-                    message.success('修改成功')
-                }
-            })
+        let  imgs=this.refs.file.files[0]
+        console.log(this,'hhaha')
+        let File=new FileReader()
+        File.onload = ()=>{
+            console.log('读取结束')
+            console.log(File.result)
+            this.setState({img:File.result})
+            // console.log(img,'sssss')
+            // this.$axios.post('/hehe/addClassifyNav',{classifyName,sort,status,img:this.state.img})
+            //     .then((data)=>{
+            //         console.log('aaaaaaaaa',data)
+            //         if(data.data.code===1){
+            //             message.success('添加成功')
+            //         }
+            //     })
+            this.$axios.post('/hehe/upDataClassifyNav',{classifyName,sort,img:this.state.img,status,_id})
+                .then((data)=>{
+                    console.log('修改',data)
+                    if(data.data.code===1){
+                        message.success('修改成功')
+                    }
+                })
+        }
+        File.readAsDataURL( imgs)
+
     }
 
     render(){
@@ -66,7 +84,8 @@ class ClassifyUpdate extends React.Component{
                     />
                         <br/>
                         <br/>
-                        <label>分类封面图:</label><input type="text" className={Style.inp}/>
+                        <label>分类封面图:</label><input type="file" ref='file'  className={Style.inp}/>
+                        <img src={this.state.img} alt=""/>
                         <br/>
                         <br/>
                         <label>状态:</label>

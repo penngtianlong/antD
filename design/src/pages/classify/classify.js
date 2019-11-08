@@ -48,6 +48,11 @@ class Classify extends React.Component{
             title: '封面图',
             dataIndex: 'img',
             key: 'img',
+            render:(data)=>{
+                return(
+                    <img src={data} className={Style.img}/>
+                )
+            }
         },
         {
             title: '排序',

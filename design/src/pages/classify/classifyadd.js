@@ -23,29 +23,31 @@ class ClassifyAdd extends React.Component{
         });
     };
     submit=()=>{
-        // let img=this.refs.file.files[0]
-        // var File=new FileReader()
-        //
-        // File.onload = ()=>{
-        //     console.log('读取结束')
-        //     console.log(File.result)
-        //     this.setState({img:File.result})
-        // }
-        // File.readAsDataURL(img)
         let {classifyName,sort,status}=this.state
         if(status==0){
             status='false';
         }else {
             status='true';
         }
-        this.$axios.post('/hehe/addClassifyNav',{classifyName,sort,status})
-            .then((data)=>{
-            console.log('aaaaaaaaa',data)
-                if(data.data.code===1){
-                    message.success('添加成功')
-                }
-            })
+        let  imgs=this.refs.file.files[0]
+        console.log(this,'hhaha')
+        let File=new FileReader()
+        File.onload = ()=>{
+            console.log('读取结束')
+            console.log(File.result)
+            this.setState({img:File.result})
+            // console.log(img,'sssss')
+            this.$axios.post('/hehe/addClassifyNav',{classifyName,sort,status,img:this.state.img})
+                .then((data)=>{
+                    console.log('aaaaaaaaa',data)
+                    if(data.data.code===1){
+                        message.success('添加成功')
+                    }
+                })
+        }
+        File.readAsDataURL( imgs)
     }
+
     render(){
         return(
             <div>
@@ -63,8 +65,11 @@ class ClassifyAdd extends React.Component{
                     />
                         <br/>
                         <br/>
-                        <label>分类封面图:</label><input type="file"  className={Style.inp}/>
-                        {/*<img src={this.state.img} alt=""/>ref="file"*/}
+                        {/*<form name="hehe" method="post" action="http://10.60.12.88:4000/file">*/}
+                            <label>分类封面图:</label><input type="file" ref='file'  className={Style.inp}/>
+                            <img src={this.state.img} alt=""/>
+                        {/*</form>*/}
+
                         <br/>
                         <br/>
                         <label>状态:</label>
@@ -81,6 +86,8 @@ class ClassifyAdd extends React.Component{
                         <br/>
                         <br/>
                         <Button className={Style.btn} onClick={this.submit}>保存</Button><Button className={Style.btn}>取消</Button>
+                        {/*<Button className={Style.btn} onClick={this.submit1}>图片上传</Button>*/}
+                        {/*<button type="submit">aaa</button>*/}
                     </div>
                 </div>
 
