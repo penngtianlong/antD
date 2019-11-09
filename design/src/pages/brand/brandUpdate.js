@@ -1,6 +1,6 @@
 
 import React ,{Component} from 'react'
-import {Button,Input,Radio} from 'antd'
+import {Button,Input,Radio,message} from 'antd'
 import Style from './brandAdd.module.less'
 import {withRouter} from 'react-router-dom'
 class brandUpdate extends Component{
@@ -23,20 +23,32 @@ class brandUpdate extends Component{
         });
     };
 
-    //     修改
+    //     修改upDataBrandData
     upDataClass=(state)=>{
         let {brandName,sort,status,img,_id}=this.state
-        console.log( status);
-        this.$axios.post('http://10.60.12.88:8888/upDataBrandData',{brandName,sort,status,img,_id}).then((data)=>{
-            // console.log(data)
-            // console.log('修改成功')
-            if(data.data.code==1){
-                // console.log(status)
-                  this.setState({brandName,sort,status,img,_id})
-                this.props.history.push('/admin/brand')
-            }
-        })
-
+        let  imgs=this.refs.file.files[0]
+        let File=new FileReader()
+        File.onload = ()=>{
+            console.log('读取结束')
+            console.log(File.result)
+            this.setState({img:File.result})
+            // console.log(img,'sssss')
+            // this.$axios.post('/hehe/addClassifyNav',{classifyName,sort,status,img:this.state.img})
+            //     .then((data)=>{
+            //         console.log('aaaaaaaaa',data)
+            //         if(data.data.code===1){
+            //             message.success('添加成功')
+            //         }
+            //     })
+            this.$axios.post('/hehe/upDataBrandData',{brandName,sort,img:this.state.img,status,_id})
+                .then((data)=>{
+                    console.log('修改',data)
+                    if(data.data.code===1){
+                        message.success('修改成功')
+                    }
+                })
+        }
+        File.readAsDataURL( imgs)
 
     }
     componentDidMount(){
@@ -77,8 +89,8 @@ class brandUpdate extends Component{
                     <div className={Style.img}>
                         <div className={Style.text}>品类封面图:</div>
                         <div className={Style.Sub}>
-                            <Input type="text" value={this.state.img} onChange={(e)=>{
-                                this.setState({img:e.target.value})
+                            <input type="file" ref='file'  className={Style.inp} onChange={(e)=>{
+
                             }} />
                             <Button>点击上传</Button>
                         </div>
