@@ -2,7 +2,7 @@ import React ,{Component} from 'react'
 
 import {Card,Table, message,Pagination,Spin, Popconfirm,Button,Input, Cascader} from 'antd'
 import {withRouter} from 'react-router-dom'
-import Style from './brand.module.less'
+import Style from '../../../../../brand/brand.module.less'
 const options = [
     {
         value: '1',
