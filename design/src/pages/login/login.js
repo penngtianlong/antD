@@ -20,7 +20,6 @@ class Login extends React.Component{
                             // 存值
 
 
-
                             webStorage.setItem('token',res.token)
                             webStorage.setItem('uid',res.uid);
 
