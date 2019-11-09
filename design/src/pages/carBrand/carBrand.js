@@ -2,7 +2,7 @@ import React ,{Component} from 'react'
 
 import {Card,Table, message,Pagination,Spin, Popconfirm,Button,Input, Cascader} from 'antd'
 import {withRouter} from 'react-router-dom'
-import Style from '../../../../../brand/brand.module.less'
+import Style from './carBrand.module.less'
 const options = [
     {
         value: '1',
@@ -34,7 +34,7 @@ function cancel(e) {
     message.error('Click on No');
 }
 
-class Brand extends Component{
+class CarBrand extends Component{
      columns = [
         {
             title: '品牌ID',
@@ -50,11 +50,6 @@ class Brand extends Component{
             title: '封面图',
             dataIndex: 'img',
             key: 'img',
-            render:(data)=>{
-                return(
-                    <img src={data} className={Style.img}/>
-                )
-            }
         },
         {
             title: '排序',
@@ -192,4 +187,4 @@ class Brand extends Component{
         )
     }
 }
-export  default withRouter(Brand)
+export  default withRouter(CarBrand)

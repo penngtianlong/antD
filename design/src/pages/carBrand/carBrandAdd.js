@@ -1,9 +1,8 @@
-
 import React ,{Component} from 'react'
 import {Button,Input,Radio,message} from 'antd'
-import Style from './brandAdd.module.less'
+import Style from './carBrandAdd.module.less'
 import {withRouter} from 'react-router-dom'
-class brandUpdate extends Component{
+class carBrandAdd extends Component{
     constructor(){
         super();
         this.state={
@@ -11,67 +10,36 @@ class brandUpdate extends Component{
             brandName:'', //品类名称
             img:"", //图片
             sort:'',//排序
-            status:1,
-            _id:''
+            status:1
         }
     }
     onChange  =(e) => {
-        console.log(e.target.value)
+        // console.log(e.target.value)
         this.setState({
             status: e.target.value,
 
         });
     };
+    //添加
+    addClass=(state)=>{
+        let {brandName,sort,status,img}=this.state
 
-    //     修改upDataBrandData
-    upDataClass=(state)=>{
-        let {brandName,sort,status,img,_id}=this.state
-        let  imgs=this.refs.file.files[0]
-        let File=new FileReader()
-        File.onload = ()=>{
-            console.log('读取结束')
-            console.log(File.result)
-            this.setState({img:File.result})
-            // console.log(img,'sssss')
-            // this.$axios.post('/hehe/addClassifyNav',{classifyName,sort,status,img:this.state.img})
-            //     .then((data)=>{
-            //         console.log('aaaaaaaaa',data)
-            //         if(data.data.code===1){
-            //             message.success('添加成功')
-            //         }
-            //     })
-            this.$axios.post('/hehe/upDataBrandData',{brandName,sort,img:this.state.img,status,_id})
-                .then((data)=>{
-                    console.log('修改',data)
-                    if(data.data.code===1){
-                        message.success('修改成功')
-                    }
-                })
-        }
-        File.readAsDataURL( imgs)
-
-    }
-    componentDidMount(){
-        let data=this.props.location.status
-
-        if(data){
-            console.log(data)
-
-            let {brandName, sort,img,status,_id}=data;
-            if(status==1){
-                this.state.status=1
-            }else if(status==2){
-                this.state.status=2
+        this.$axios.post('http://10.60.12.88:8888/addBrandData',{brandName:brandName,sort:sort,status:status}).then((data)=>{
+            // console.log(data)
+            if(data.data.code==1){
+                // console.log('aaa')
+                  this.setState({brandName:'',img:'',sort:'',status:1})
+                message.success("添加成功")
             }
-            this.setState({brandName, sort,img,status:this.state.status,_id})
-        }
+        })
+
 
     }
     render(){
         return(
             <div className={Style.box}>
                 <div className={Style.nav}>
-                    <div >修改品类</div>
+                    <div >新增品类</div>
                     <div><Button onClick={()=>{
                         this.props.history.go(-1)
                     }}>返回</Button></div>
@@ -89,9 +57,9 @@ class brandUpdate extends Component{
                     <div className={Style.img}>
                         <div className={Style.text}>品类封面图:</div>
                         <div className={Style.Sub}>
-                            <input type="file" ref='file'  className={Style.inp} onChange={(e)=>{
-
-                            }} />
+                         <Input type="text" value={this.state.img} onChange={(e)=>{
+                             this.setState({img:e.target.value})
+                         }} />
                             <Button>点击上传</Button>
                         </div>
 
@@ -115,14 +83,12 @@ class brandUpdate extends Component{
                         </div>
                     </div>
                     <div className={Style.button}>
-                        <Button onClick={this.upDataClass}>保存</Button>
-                        <Button onClick={(e)=>{
-                            this.props.history.go(-1)
-                        }}>取消</Button>
+                       <Button onClick={this.addClass}>保存</Button>
+                        <Button>取消</Button>
                     </div>
                 </div>
             </div>
         )
     }
 }
-export default withRouter(brandUpdate)
+export default withRouter(carBrandAdd)

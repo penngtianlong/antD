@@ -1,4 +1,4 @@
-import React ,{Component} from 'react'
+     import React ,{Component} from 'react'
 import {Button,Input,Radio,message} from 'antd'
 import Style from './brandAdd.module.less'
 import {withRouter} from 'react-router-dom'
@@ -20,20 +20,26 @@ class brandAdd extends Component{
 
         });
     };
-    //添加
+    //添加addBrandData
     addClass=(state)=>{
-        let {brandName,sort,status,img}=this.state
+        let {brandName,sort,status}=this.state
+        let  imgs=this.refs.file.files[0]
 
-        this.$axios.post('http://10.60.12.88:8888/addBrandData',{brandName:brandName,sort:sort,status:status}).then((data)=>{
-            // console.log(data)
-            if(data.data.code==1){
-                // console.log('aaa')
-                  this.setState({brandName:'',img:'',sort:'',status:1})
-                message.success("添加成功")
-            }
-        })
+        let File=new FileReader()
+        File.onload = ()=>{
+            console.log('读取结束')
+            console.log(File.result)
+            this.setState({img:File.result})
+            // console.log(img,'sssss')
+            this.$axios.post('/hehe/addBrandData',{brandName,sort,status,img:this.state.img})
+                .then((data)=>{
 
-
+                    if(data.data.code===1){
+                        message.success('添加成功')
+                    }
+                })
+        }
+        File.readAsDataURL( imgs)
     }
     render(){
         return(
@@ -57,8 +63,8 @@ class brandAdd extends Component{
                     <div className={Style.img}>
                         <div className={Style.text}>品类封面图:</div>
                         <div className={Style.Sub}>
-                         <Input type="text" value={this.state.img} onChange={(e)=>{
-                             this.setState({img:e.target.value})
+                         <input className={Style.inp} type="file" ref='file'  onChange={(e)=>{
+
                          }} />
                             <Button>点击上传</Button>
                         </div>
